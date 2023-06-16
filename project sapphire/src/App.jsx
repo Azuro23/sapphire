@@ -1,18 +1,19 @@
 import { useState } from 'react'
 import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import About from './pages/About'
+import Profile from './pages/Profile'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Sidebar />}>
             <Route index element={<About />} />
-            <Route path=':user'element={<Profiles/>}/>
-          </Route>
+            <Route path=':user'element={<Profile/>}/>
         </Routes>
+        
       </BrowserRouter>
     </>
   )
