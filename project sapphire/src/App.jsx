@@ -13,6 +13,7 @@ function App() {
             <Route index element={<About />} />
             <Route path=':user'element={<Profile/>}/>
         </Routes>
+        
       </BrowserRouter>
     </>
   )
