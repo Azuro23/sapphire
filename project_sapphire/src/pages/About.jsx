@@ -45,7 +45,7 @@ export default function About() {
         </Stack>
       </Stack>
       <SimpleGrid
-        columns={{ base: 1, md: 2,  lg: 3, }} columnGap="8" rowGap={{base: '10', lg: '16', }} color="#FCB721">
+        columns={{ base: 1, md: 2,  lg: 4, }} columnGap="20" padding={ "30" } rowGap={{base: '10', lg: '16', }} color="#FCB721">
         {members.map((member) => (
           <Stack key={member.name} spacing="4">
             <Stack spacing="5">

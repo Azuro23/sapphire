@@ -41,4 +41,18 @@ export const members = [
       name: 'Yasmine Jones',
       description: 'Diam maecenas sed enim ut sem viverra aliquet eget magna ac placerat.',
     },
+    {
+      role: 'Manager, Business Relations',
+      image:
+        'https://images.unsplash.com/photo-1524660988542-c440de9c0fde?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYwfHxibGFjayUyMGd1eXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      name: 'Morgan Adebayo',
+      description: 'Consectetur libero id faucibus nisl tincidunt eget nullam fringilla urna.',
+    },
+    {
+      role: 'Chief Operating Officer',
+      image:
+        'https://images.unsplash.com/photo-1522938974444-f12497b69347?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzJ8fGJsYWNrJTIwbGFkeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      name: 'Bimbo Akintola',
+      description: 'Mi eget mauris pharetra et ultrices neque ornare aenean massa eget egestas.',
+    },
   ]
