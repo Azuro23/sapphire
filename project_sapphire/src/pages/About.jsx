@@ -18,8 +18,8 @@ export default function About() {
 
     return (
       <Flex backgroundColor={"#062143"} bgGradient={90} >
-    <Container maxW={'med'} py={{ base: '16', md: '24', }} >
-    <Stack spacing={{base: '12', md: '16',  }}  >
+    <Container maxW={''}  py={{ base: '16', md: '24', }} >
+    <Stack spacing={{base: '12', md: '16',  }} padding={ "50" } >
       <Stack spacing={{ base: '8',  md: '10', }} direction={{ base: 'column', lg: 'row',}}justify="space-between" >
         <Stack spacing="3" maxW="3xl">
           <Text fontSize={{ base: 'sm', md: 'md',}} color="#FCB721" fontWeight="semibold">
@@ -45,7 +45,7 @@ export default function About() {
         </Stack>
       </Stack>
       <SimpleGrid
-        columns={{ base: 1, md: 2,  lg: 4, }} columnGap="20" padding={ "30" } rowGap={{base: '10', lg: '16', }} color="#FCB721">
+        columns={{ base: 1, md: 2,  lg: 4, }} columnGap="20"  rowGap={{base: '10', lg: '16', }} color="#FCB721">
         {members.map((member) => (
           <Stack key={member.name} spacing="4">
             <Stack spacing="5">
