@@ -22,9 +22,9 @@ const ProfileNav = () => {
 			variant="unstyled"
 		>
 			<TabList>
-				<Tab>About Me</Tab>
-				<Tab>Experience</Tab>
-				<Tab>Projects</Tab>
+				<Tab color={'white'}>About Me</Tab>
+				<Tab color={'white'}>Experience</Tab>
+				<Tab color={'white'}>Projects</Tab>
 			</TabList>
 			<TabIndicator
 				mt="-1.5px"
