@@ -22,7 +22,7 @@ export default function About() {
     <Stack spacing={{base: '12', md: '16',  }} padding={ "50" } >
       <Stack spacing={{ base: '8',  md: '10', }} direction={{ base: 'column', lg: 'row',}}justify="space-between" >
         <Stack spacing="3" maxW="3xl">
-          <Text fontSize={{ base: 'sm', md: 'md',}} color="#FCB721" fontWeight="semibold">
+          <Text fontSize={{ base: 'sm', md: 'xl',}} color="#FCB721" fontWeight="semibold">
             Welcome
           </Text>
           <Stack spacing={{ base: '4', md: '5', }} >
