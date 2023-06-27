@@ -30,7 +30,7 @@ export default function About() {
               Meet our team
             </Heading>
             <Text fontSize={{ base: 'lg', md: 'xl',  }} color="#FCB721"  >
-            Azuro is owned and run by a group of hands-on partners who actively work on each and every project. There is no B-team. Working with Azuro means that our entire leadership team is involved in the day-to-day of your project, providing a level of dedication and attention not found in a large firm.
+            Azuro is owned and run by a group of hands-on partners who actively work on each and every project. There is no B-team. Working with Azuro means that our entire leadership team is involved in the day-to-day of your project, providing a level of dedication and attention not found in a large firm!
             </Text>
           </Stack>
         </Stack>
