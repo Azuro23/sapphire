@@ -14,7 +14,7 @@ function App() {
 						element={<About />}
 					/>
 					<Route
-						path="/profile/:id"
+						path="/developer/:id"
 						element={<Profile />}
 					/>
 				</Routes>

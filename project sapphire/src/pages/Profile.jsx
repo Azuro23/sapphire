@@ -7,13 +7,15 @@ import {
 	HStack,
 	Heading,
 	Image,
+	Link,
 	Text,
 } from '@chakra-ui/react';
 
-// import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import ProfileNav from '../Components/ProfileNav';
 
 export default function Profile() {
-	// const profileParams = useParams();
+	const { id } = useParams();
 
 	const [developers, setDevelopers] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
@@ -28,7 +30,7 @@ export default function Profile() {
 			if (!res.ok) throw new Error('Something went wrong');
 
 			const developers = await res.json();
-			console.log(developers);
+			console.log('List of developers: ', developers);
 
 			setDevelopers(developers);
 			setIsLoading(false);
@@ -47,8 +49,46 @@ export default function Profile() {
 	}
 
 	if (error) {
-		return <Box>{error.msg}</Box>;
+		return <Box color={'red'}>{error.msg}</Box>;
 	}
+
+	const devs = developers.map((dev, index) =>
+		index == id ? (
+			<Box key={index}>
+				<Heading color={'white'}>
+					{dev.firstName} {dev.lastName}
+				</Heading>
+				<Text color={'white'}>{dev.currentTitle}</Text>
+				<Text color={'white'}>{dev.introTagLine}</Text>
+				<HStack
+					justify={'space-between'}
+					cursor={'pointer'}
+				>
+					<Link
+						href={dev.iconPic.gitLink}
+						isExternal
+					>
+						<Image
+							src={dev.iconPic.github}
+							alt="github"
+						/>
+					</Link>
+					<Link href={dev.iconPic.linkedLink}>
+						<Image
+							src={dev.iconPic.linkedin}
+							alt="linkedIn"
+						/>
+					</Link>
+					<Link href={dev.iconPic.twittLink}>
+						<Image
+							src={dev.iconPic.twitter}
+							alt="twitter"
+						/>
+					</Link>
+				</HStack>
+			</Box>
+		) : null
+	);
 
 	return (
 		<Flex
@@ -59,40 +99,12 @@ export default function Profile() {
 			backgroundColor={'#062143'}
 			flexDirection={'column'}
 		>
-			<header>
-				<Box>
-					<Heading color={'white'}>Shadreka McAllister</Heading>
-					<Text color={'white'}>Software Engineer at The Azuro Agency</Text>
-					<Text color={'white'}>
-						I build inclusive, accessible products and digital experiences for
-						apps and the web.
-					</Text>
-					<HStack justify={'space-between'}>
-						<Box>
-							<Image
-								src="../../images/icon-github.svg"
-								alt="github"
-							/>
-						</Box>
-						<Box>
-							<Image
-								src="../../images/icon-linkedin.svg"
-								alt="linkedIn"
-							/>
-						</Box>
-						<Box>
-							<Image
-								src="../../images/icon-twitter.svg"
-								alt="twitter"
-							/>
-						</Box>
-					</HStack>
-				</Box>
-			</header>
-			<Container color={'white'}>Nav Section</Container>
-			<Container color={'white'}>About Me</Container>
-			<Container color={'white'}> Experience</Container>
-			<Container color={'white'}>Projects</Container>
+			<header>{devs}</header>
+			<nav>
+				<ProfileNav />
+			</nav>
+			<main></main>
+			<footer></footer>
 		</Flex>
 	);
 }
