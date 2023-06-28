@@ -1,4 +1,5 @@
 import {   
+  Box,
     Button,
     Container,
     Flex,
@@ -11,6 +12,7 @@ import {
     Stack,
     Text,
     } from "@chakra-ui/react";
+import StackEx from './aboutText'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { members } from './data'
 
@@ -50,7 +52,7 @@ export default function About() {
           <Stack key={member.name} spacing="4">
             <Stack spacing="5">
               
-              <Img src={member.image} alt={member.name} h="72" objectFit="cover" />
+              <Img shadow="2xl" src={member.image} alt={member.name} h="72" objectFit="cover" />
               <Stack spacing="1">
                 <Text fontWeight="medium" fontSize={{ base: 'lg', md: 'xl', }} >
                   {member.name}
@@ -70,6 +72,11 @@ export default function About() {
           </Stack>
         ))}
       </SimpleGrid>
+    </Stack>
+    <Stack> 
+      <Box>    
+     <StackEx />
+     </Box> 
     </Stack>
   </Container>
   
