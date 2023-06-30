@@ -24,16 +24,16 @@ export const ClientInfoCard = (props) => (
         >
           <FormControl id="firstName">
             <FormLabel>First Name</FormLabel>
-            <Input defaultValue="Christoph" />
+            <Input defaultValue="" />
           </FormControl>
           <FormControl id="lastName">
             <FormLabel>Last Name</FormLabel>
-            <Input defaultValue="Winston" />
+            <Input defaultValue="" />
           </FormControl>
         </Stack>
         <FormControl id="street">
           <FormLabel>Street</FormLabel>
-          <Input defaultValue="Am Kreuzberg 3" />
+          <Input defaultValue="" />
         </FormControl>
         <Stack
           spacing="6"
@@ -44,7 +44,7 @@ export const ClientInfoCard = (props) => (
         >
           <FormControl id="city">
             <FormLabel>City</FormLabel>
-            <Input defaultValue="Berlin" />
+            <Input defaultValue="" />
           </FormControl>
           <FormControl id="state">
             <FormLabel>State / Province</FormLabel>
@@ -52,7 +52,7 @@ export const ClientInfoCard = (props) => (
           </FormControl>
           <FormControl id="zip">
             <FormLabel>ZIP/ Postal Code</FormLabel>
-            <Input defaultValue="10961" />
+            <Input defaultValue="" />
           </FormControl>
         </Stack>
       </Stack>
@@ -78,19 +78,18 @@ export const ClientInfoCard = (props) => (
       }}
     >
       <FormControl id="website">
-        <FormLabel>Website</FormLabel>
+        <FormLabel>Your Website</FormLabel>
         <InputGroup>
           <InputLeftAddon>https://</InputLeftAddon>
-          <Input defaultValue="www.chakra-ui.com" />
+          <Input defaultValue="" />
         </InputGroup>
       </FormControl>
       <FormControl id="bio">
-        <FormLabel>Bio</FormLabel>
+        <FormLabel>Business Needs</FormLabel>
         <Textarea rows={3} resize="none" />
-        <FormHelperText color="fg.subtle">Write a short introduction about yourself</FormHelperText>
+        <FormHelperText color="fg.subtle">Brief description of project</FormHelperText>
       </FormControl>
       <FormControl id="picture">
-        <FormLabel>Picture</FormLabel>
         <Stack
           spacing={{
             base: '3',
