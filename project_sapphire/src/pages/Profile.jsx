@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+
 // Supports weights 100-900
 import '@fontsource-variable/inter';
 
@@ -13,7 +15,6 @@ import {
 	Text,
 } from '@chakra-ui/react';
 
-import { useParams } from 'react-router-dom';
 import ProfileNav from '../Components/ProfileNav';
 import DevProjects from '../Components/DevProjects';
 import AboutDev from '../Components/AboutDev';
@@ -130,7 +131,7 @@ export default function Profile() {
 					<DevProjects developers={developers} />
 				</section>
 			</main>
-			<footer></footer>
+			<footer>Contact Us Section</footer>
 		</Flex>
 	);
 }

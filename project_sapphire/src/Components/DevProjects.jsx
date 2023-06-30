@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -10,13 +10,15 @@ const DevProjects = ({ developers }) => {
 			<Flex
 				className="projectsContainer"
 				key={`${dev.iD}`}
+				color={'white'}
+				width={'auto'}
 			>
 				{dev.projectDetails.map((projectDetail, ind) => (
 					<Box
 						key={ind}
 						className="project"
 					>
-						<img
+						<Image
 							src={`${projectDetail.img.small}`}
 							alt={`${projectDetail.title}`}
 							className="projectImg"
@@ -26,24 +28,21 @@ const DevProjects = ({ developers }) => {
 						<Box className="projectDesc">
 							<Box className="projectTitle"> {`${projectDetail.title}`} </Box>
 							<Box className="projectTechs">
-								<div className="tech">
-									{' '}
+								<Box className="tech">
 									{projectDetail.techs.a == null || undefined
 										? null
-										: `${projectDetail.techs.a}`}{' '}
-								</div>
-								<div className="tech">
-									{' '}
+										: `${projectDetail.techs.a}`}
+								</Box>
+								<Box className="tech">
 									{projectDetail.techs.b == null || undefined
 										? null
-										: `${projectDetail.techs.b}`}{' '}
-								</div>
-								<div className="tech">
-									{' '}
+										: `${projectDetail.techs.b}`}
+								</Box>
+								<Box className="tech">
 									{projectDetail.techs.c == null || undefined
 										? null
-										: `${projectDetail.techs.c}`}{' '}
-								</div>
+										: `${projectDetail.techs.c}`}
+								</Box>
 							</Box>
 						</Box>
 					</Box>
@@ -52,7 +51,7 @@ const DevProjects = ({ developers }) => {
 		) : null
 	);
 
-	return <div>{devProjects}</div>;
+	return <Flex>{devProjects}</Flex>;
 };
 
 export default DevProjects;
