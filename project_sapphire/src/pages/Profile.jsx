@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+// Supports weights 100-900
+import '@fontsource-variable/inter';
 
 import {
 	Box,
@@ -13,6 +15,9 @@ import {
 
 import { useParams } from 'react-router-dom';
 import ProfileNav from '../Components/ProfileNav';
+import DevProjects from '../Components/DevProjects';
+import AboutDev from '../Components/AboutDev';
+import DevExperience from '../Components/DevExperience';
 
 export default function Profile() {
 	const { id } = useParams();
@@ -55,7 +60,10 @@ export default function Profile() {
 	const devs = developers.map((dev, index) =>
 		index == id ? (
 			<Box key={index}>
-				<Heading color={'white'}>
+				<Heading
+					color={'white'}
+					fontFamily={'inter'}
+				>
 					{dev.firstName} {dev.lastName}
 				</Heading>
 				<Text color={'white'}>{dev.currentTitle}</Text>
@@ -73,13 +81,19 @@ export default function Profile() {
 							alt="github"
 						/>
 					</Link>
-					<Link href={dev.iconPic.linkedLink}>
+					<Link
+						href={dev.iconPic.linkedLink}
+						isExternal
+					>
 						<Image
 							src={dev.iconPic.linkedin}
 							alt="linkedIn"
 						/>
 					</Link>
-					<Link href={dev.iconPic.twittLink}>
+					<Link
+						href={dev.iconPic.twittLink}
+						isExternal
+					>
 						<Image
 							src={dev.iconPic.twitter}
 							alt="twitter"
@@ -99,11 +113,23 @@ export default function Profile() {
 			backgroundColor={'#062143'}
 			flexDirection={'column'}
 		>
-			<header>{devs}</header>
-			<nav>
-				<ProfileNav />
-			</nav>
-			<main></main>
+			<header>
+				{devs}
+				<nav>
+					<ProfileNav />
+				</nav>
+			</header>
+			<main>
+				<section id="devAbout">
+					<AboutDev developers={developers} />
+				</section>
+				<section id="devExperience">
+					<DevExperience developers={developers} />
+				</section>
+				<section id="devProjects">
+					<DevProjects developers={developers} />
+				</section>
+			</main>
 			<footer></footer>
 		</Flex>
 	);
