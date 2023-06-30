@@ -14,9 +14,48 @@ import {
     } from "@chakra-ui/react";
 import StackEx from './aboutText'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { members } from './data'
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import Profile from "./Profile";
+
 
 export default function About() {
+  const { id } = useParams();
+	const [developers, setDevelopers] = useState([]);
+	const [isLoading, setIsLoading] = useState(true);
+	const [error, setError] = useState('');
+
+	const getDataForDevelopers = async () => {
+		try {
+			const res = await fetch(
+				`https://azuro-agency-default-rtdb.firebaseio.com/developers.json`
+			);
+
+			if (!res.ok) throw new Error('Something went wrong');
+
+			const developers = await res.json();
+			console.log('List of developers: ', developers);
+
+			setDevelopers(developers);
+			setIsLoading(false);
+		} catch (error) {
+			setIsLoading(false);
+			setError(error.msg);
+		}
+	};
+
+	useEffect(() => {
+		getDataForDevelopers();
+	}, []);
+
+	if (isLoading) {
+		return <Box>Loading...</Box>;
+	}
+
+	if (error) {
+		return <Box color={'red'}>{error.msg}</Box>;
+	}
+ 
 
     return (
       <Flex backgroundColor={"#062143"} bgGradient={90} >
@@ -48,17 +87,17 @@ export default function About() {
       </Stack>
       <SimpleGrid
         columns={{ base: 1, md: 2,  lg: 4, }} columnGap="20"  rowGap={{base: '10', lg: '16', }} color="#FCB721">
-        {members.map((member) => (
-          <Stack key={member.name} spacing="4">
+        {developers.map((dev) => (
+          <Stack key={dev.id} spacing="4">
             <Stack spacing="5">
-              
-              <Img shadow="2xl" src={member.image} alt={member.name} h="72" objectFit="cover" />
+              <Link href={`/developer/${dev.id}`}>
+              <Img shadow="2xl" src={dev.profilePic.desktop} alt={dev.firstName} h="72" objectFit="cover" /></Link>
               <Stack spacing="1">
                 <Text fontWeight="medium" fontSize={{ base: 'lg', md: 'xl', }} >
-                  {member.name}
+                {dev.firstName} {dev.lastName}
                 </Text>
                 <Text color="accent" fontSize={{ base: 'md', md: 'lg', }} >
-                  {member.role}
+                {dev.currentTitle}
                 </Text>
               </Stack>
             </Stack>
@@ -81,5 +120,5 @@ export default function About() {
   </Container>
   
   </Flex>
-    )
+    );
 }
