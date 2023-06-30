@@ -11,15 +11,28 @@ import {
     SimpleGrid,
     Stack,
     Text,
+    Modal, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, ModalBody, useDisclosure,
     } from "@chakra-ui/react";
 import StackEx from './aboutText'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Profile from "./Profile";
+import { ClientInfoCard } from "./ClientInfo";
+
 
 
 export default function About() {
+  const Overlay = () => (
+    <ModalOverlay
+      bg='none'
+      backdropFilter='auto'
+      backdropInvert='80%'
+      backdropBlur='2px'
+    />
+  )
+  const {isOpen, onOpen, onClose} = useDisclosure()
+  const [overlay, setOverlay] = useState(<Overlay />)
+
   const { id } = useParams();
 	const [developers, setDevelopers] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
@@ -77,7 +90,9 @@ export default function About() {
         </Stack>
         <Stack
           direction={{base: 'column-reverse', md: 'row', }} spacing="3" >
-          <Button colorScheme="purple">
+          <Button colorScheme="purple" onClick={() => {
+            setOverlay(<Overlay/>) 
+            onOpen()}}>
             Contact us
           </Button>
           <Button >
@@ -90,7 +105,7 @@ export default function About() {
         {developers.map((dev) => (
           <Stack key={dev.iD} spacing="4">
             <Stack spacing="5">
-              <Link href={`/developer/:id${dev.iD}`}>
+              <Link href={`/developer/${dev.iD}`}>
               <Img shadow="2xl" src={dev.profilePic.desktop} alt={dev.firstName} h="72" objectFit="cover" /></Link>
               <Stack spacing="1">
                 <Text fontWeight="medium" fontSize={{ base: 'lg', md: 'xl', }} >
@@ -118,6 +133,24 @@ export default function About() {
      </Box> 
     </Stack>
   </Container>
+  <div>
+    <Modal isCentered 
+    size={"xl"}
+    closeOnOverlayClick={false}
+    isOpen={isOpen}
+    onClose={onClose}>
+        {overlay}
+        <ModalContent>
+            <ModalHeader>Thank You For Your Business</ModalHeader>
+            <ModalCloseButton/>
+            <ModalBody>
+              <ClientInfoCard/>
+            </ModalBody>
+            <ModalFooter> 
+            </ModalFooter>
+        </ModalContent>
+    </Modal>
+    </div>
   
   </Flex>
     );
