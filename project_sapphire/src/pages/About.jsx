@@ -143,7 +143,7 @@ export default function About() {
     onClose={onClose}>
         {overlay}
         <ModalContent>
-            <ModalHeader bgColor={"#062143"} textColor={"#FCB721"}>We are excited to get to know you</ModalHeader>
+            <ModalHeader bgColor={"#062143"} textColor={"#FCB721"}>Getting to know you!</ModalHeader>
             <ModalCloseButton textColor={"#FFFFFF"}/>
             <ModalBody bgColor={"#062143"}>
               <ClientInfoCard/>
