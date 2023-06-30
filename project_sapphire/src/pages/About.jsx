@@ -90,7 +90,7 @@ export default function About() {
         {developers.map((dev) => (
           <Stack key={dev.iD} spacing="4">
             <Stack spacing="5">
-              <Link href={`/developer/${dev.iD}`}>
+              <Link href={`/developer/:id${dev.iD}`}>
               <Img shadow="2xl" src={dev.profilePic.desktop} alt={dev.firstName} h="72" objectFit="cover" /></Link>
               <Stack spacing="1">
                 <Text fontWeight="medium" fontSize={{ base: 'lg', md: 'xl', }} >
