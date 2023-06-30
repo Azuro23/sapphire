@@ -141,17 +141,16 @@ export default function About() {
     onClose={onClose}>
         {overlay}
         <ModalContent>
-            <ModalHeader>Thank You For Your Business</ModalHeader>
+            <ModalHeader bgColor={"#062143"} textColor={"#FCB721"}>Thank You For Your Business</ModalHeader>
             <ModalCloseButton/>
-            <ModalBody>
+            <ModalBody bgColor={"#062143"}>
               <ClientInfoCard/>
             </ModalBody>
-            <ModalFooter> 
+            <ModalFooter bgColor={"#062143"}> 
             </ModalFooter>
         </ModalContent>
     </Modal>
-    </div>
-  
+    </div>  
   </Flex>
     );
 }

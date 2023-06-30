@@ -112,7 +112,7 @@ export const ClientInfoCard = (props) => (
         md: '6',
       }}
     >
-      <Button type="submit" variant="primary">
+      <Button colorScheme="purple" type="submit" variant="primary">
         Save
       </Button>
     </Flex>
