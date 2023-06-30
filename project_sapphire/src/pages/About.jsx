@@ -136,12 +136,14 @@ export default function About() {
   <div>
     <Modal isCentered 
     size={"xl"}
+    backgroundColor={"gray.500"}
+    backdropBlur={30}
     closeOnOverlayClick={false}
     isOpen={isOpen}
     onClose={onClose}>
         {overlay}
         <ModalContent>
-            <ModalHeader bgColor={"#062143"} textColor={"#FCB721"}>Thank You For Your Business</ModalHeader>
+            <ModalHeader bgColor={"#062143"} textColor={"#FCB721"}>We are excited to get to know you</ModalHeader>
             <ModalCloseButton textColor={"#FFFFFF"}/>
             <ModalBody bgColor={"#062143"}>
               <ClientInfoCard/>

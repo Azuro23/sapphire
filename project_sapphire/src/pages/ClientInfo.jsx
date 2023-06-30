@@ -22,6 +22,7 @@ export const ClientInfoCard = (props) => (
             md: 'row',
           }}
         >
+
           <FormControl id="firstName">
             <FormLabel>First Name</FormLabel>
             <Input defaultValue="" />
@@ -76,7 +77,12 @@ export const ClientInfoCard = (props) => (
         base: '5',
         md: '6',
       }}
-    >
+    >            
+    <FormControl id="businessName">
+    <FormLabel>Business Name</FormLabel>
+    <Input defaultValue="" />            
+    </FormControl>
+    
       <FormControl id="website">
         <FormLabel>Your Website</FormLabel>
         <InputGroup>
