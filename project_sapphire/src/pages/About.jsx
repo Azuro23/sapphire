@@ -88,9 +88,9 @@ export default function About() {
       <SimpleGrid
         columns={{ base: 1, md: 2,  lg: 4, }} columnGap="20"  rowGap={{base: '10', lg: '16', }} color="#FCB721">
         {developers.map((dev) => (
-          <Stack key={dev.id} spacing="4">
+          <Stack key={dev.iD} spacing="4">
             <Stack spacing="5">
-              <Link href={`/developer/${dev.id}`}>
+              <Link href={`/developer/${dev.iD}`}>
               <Img shadow="2xl" src={dev.profilePic.desktop} alt={dev.firstName} h="72" objectFit="cover" /></Link>
               <Stack spacing="1">
                 <Text fontWeight="medium" fontSize={{ base: 'lg', md: 'xl', }} >
