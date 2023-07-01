@@ -24,8 +24,8 @@ import { ClientInfoCard } from "./ClientInfo";
 export default function About() {
   const Overlay = () => (
     <ModalOverlay
-      bg='none'
-      backdropFilter='auto'
+      bg='blackAlpha.300'
+      backdropFilter='blur(10px) hue-rotate(0deg)'
       backdropInvert='80%'
       backdropBlur='2px'
     />
@@ -137,7 +137,7 @@ export default function About() {
     <Modal isCentered 
     size={"xl"}
     backgroundColor={"gray.500"}
-    backdropBlur={30}
+    motionPreset="slideInBottom"
     closeOnOverlayClick={false}
     isOpen={isOpen}
     onClose={onClose}>
