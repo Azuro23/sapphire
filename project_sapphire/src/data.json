@@ -1,11 +1,17 @@
 {
 	"developers": [
 		{
-			"iD": "adamK",
-			"firstName": "Adam",
-			"lastName": "Keyes",
-			"currentTitle": "Senior UI Engineer at The Azuro Agency",
-			"introTagLine": "Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.",
+			"iD": "michaelI",
+			"firstName": "Michael",
+			"lastName": "Igbanugo",
+			"email": "igbanugo.michael@gmail.com",
+			"phone": "3474957526",
+			"location": {
+				"city": "Bronx",
+				"state": "NY"
+			},
+			"currentTitle": "Senior UI Developer at The Azuro Agency",
+			"introTagLine": "I am a full stack designer and developer looking forward to working with you!",
 			"profilePic": {
 				"desktop": "/images/image-profile-desktop.webp",
 				"mobile": "/images/image-profile-mobile.webp",
@@ -23,16 +29,258 @@
 				"html": "4 years experience",
 				"css": "4 years experience",
 				"javascript": "4 years experience",
-				"access": "4 years experience",
-				"react": "3 years experience",
-				"sass": "3 years experience"
+				"reacct": "4 years experience",
+				"sass": "",
+				"node": "4 years experience",
+				"php": "4 years experience",
+				"vsCode": "4 years experience",
+				"figma": "4 years experience",
+				"adobe": "4 years experience",
+				"sketch": "4 years experience",
+				"jest": ""
 			},
 			"aboutMe": {
-				"intro": "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a major corporation.",
-				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.",
-				"para3": "When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two kids, or running around Atlanta looking for the best eats!"
+				"intro": "Back in 2019, I decided to shift gears from becoming a doctor and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for advertising agencies, leading a project-led design studio, and creating a couple of start-ups.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I devise and create ideas/projects to contribute to the innovation of the technology and coding industries.",
+				"para3": "When I’m not at the computer, I’m usually reading, gaming, or dreaming of my next project!"
 			},
-			"contactMessage": "I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
+			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
+			"projectDetails": [
+				{
+					"title": "Design portfolio",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-1-large.webp",
+						"small": "/images/thumbnail-project-1-small.webp"
+					}
+				},
+				{
+					"title": "E-learning landing page",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-2-large.webp",
+						"small": "/images/thumbnail-project-2-small.webp"
+					}
+				},
+				{
+					"title": "Todo web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-3-large.webp",
+						"small": "/images/thumbnail-project-3-small.webp"
+					}
+				},
+				{
+					"title": "Entertainment web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-4-large.webp",
+						"small": "/images/thumbnail-project-4-small.webp"
+					}
+				},
+				{
+					"title": "Memory Game",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-5-large.webp",
+						"small": "/images/thumbnail-project-5-small.webp"
+					}
+				},
+				{
+					"title": "Art gallery showcase",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-6-large.webp",
+						"small": "/images/thumbnail-project-6-small.webp"
+					}
+				}
+			]
+		},
+		{
+			"iD": "mikellR",
+			"firstName": "Mikell",
+			"lastName": "Rozier",
+			"email": "mikell.rozier@live.com",
+			"phone": "4045126633",
+			"location": {
+				"city": "Atlanta",
+				"state": "GA"
+			},
+			"currentTitle": "Frontend Developer at The Azuro Agency",
+			"introTagLine": "Hi, I'm Mikell!",
+			"profilePic": {
+				"desktop": "/images/image-profile-desktop.webp",
+				"mobile": "/images/image-profile-mobile.webp",
+				"tablet": "/images/image-profile-tablet.webp"
+			},
+			"iconPic": {
+				"github": "/images/icon-github.svg",
+				"gitLink": "https://github.com/MikellRozier",
+				"linkedin": "/images/icon-linkedin.svg",
+				"linkedLink": "https://www.linkedin.com/in/mikellrozier",
+				"twitter": "/images/icon-twitter.svg",
+				"twittLink": "https://www.twitter.com"
+			},
+			"techstack": {
+				"html": "2 years experience",
+				"css": "2 years experience",
+				"javascript": "2 years experience",
+				"reacct": "2 years experience",
+				"sass": "",
+				"node": " 2 years experience",
+				"php": "",
+				"vsCode": "2 years experience",
+				"figma": "2 years experience",
+				"adobe": "",
+				"sketch": "",
+				"jest": "2 years experience"
+			},
+			"aboutMe": {
+				"intro": "Back in 2021, I decided to make a career change; try my hand at creating custom website designs and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for an advertising agency, a project-led design studio, and a start-up.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I continue perfecting my craft by diving deeper into Javacript and component libraries.",
+				"para3": "When I’m not at the computer, I’m usually golfing, gaming, or engaing in a motivational speaking capacity!"
+			},
+			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
+			"projectDetails": [
+				{
+					"title": "Design portfolio",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-1-large.webp",
+						"small": "/images/thumbnail-project-1-small.webp"
+					}
+				},
+				{
+					"title": "E-learning landing page",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-2-large.webp",
+						"small": "/images/thumbnail-project-2-small.webp"
+					}
+				},
+				{
+					"title": "Todo web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-3-large.webp",
+						"small": "/images/thumbnail-project-3-small.webp"
+					}
+				},
+				{
+					"title": "Entertainment web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-4-large.webp",
+						"small": "/images/thumbnail-project-4-small.webp"
+					}
+				},
+				{
+					"title": "Memory Game",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-5-large.webp",
+						"small": "/images/thumbnail-project-5-small.webp"
+					}
+				},
+				{
+					"title": "Art gallery showcase",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-6-large.webp",
+						"small": "/images/thumbnail-project-6-small.webp"
+					}
+				}
+			]
+		},
+		{
+			"iD": "ericaS",
+			"firstName": "Erica",
+			"lastName": "Stewart",
+			"email": "estewart1979@gmail.com",
+			"phone": "4044220166",
+			"location": {
+				"city": "Norcross",
+				"state": "GA"
+			},
+			"currentTitle": "Junior Frontend Developer at The Azuro Agency",
+			"introTagLine": "Hi, I'm a front-end developer passionate about creating engaging and user-friendly web experiences through HTML, CSS, and JavaScript.",
+			"profilePic": {
+				"desktop": "/images/image-profile-desktop.webp",
+				"mobile": "/images/image-profile-mobile.webp",
+				"tablet": "/images/image-profile-tablet.webp"
+			},
+			"iconPic": {
+				"github": "/images/icon-github.svg",
+				"gitLink": "https://github.com/esrtewatl",
+				"linkedin": "/images/icon-linkedin.svg",
+				"linkedLink": "http://ww.linkedin.com/in/erica-stewart-416551278",
+				"twitter": "/images/icon-twitter.svg",
+				"twittLink": "https://www.twitter.com"
+			},
+			"techstack": {
+				"html": "3 years experience",
+				"css": "3 years experience",
+				"javascript": "3 years experience",
+				"reacct": "3 years experience",
+				"sass": "3 years experience",
+				"node": "",
+				"php": "",
+				"vsCode": "3 years experience",
+				"figma": "3 years experience",
+				"adobe": "",
+				"sketch": "",
+				"jest": "3 years experience"
+			},
+			"aboutMe": {
+				"intro": "Back in 2020, while in pursuit of a career in sound engineering and wanted to build my own website to showcase my work, so I tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for an advertising agency, a project-led design studio, and a start-up.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I continue to work on my skillset,  becoming more proficient in React, Redux, and Javascript while to still making music.",
+				"para3": "When I’m not at the computer, I’m usually fishing, playing video games or running around Atlanta looking for the best eats!"
+			},
+			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
 			"projectDetails": [
 				{
 					"title": "Design portfolio",
@@ -110,8 +358,14 @@
 			"iD": "shadrekaM",
 			"firstName": "Shadreka",
 			"lastName": "McAllister",
-			"currentTitle": "Senior UI Developer at The Azuro Agency",
-			"introTagLine": "I build inclusive, accessible products and digital experiences for apps and the web.",
+			"email": "shadreka.mcallister@gmail.com",
+			"phone": "4048576044",
+			"location": {
+				"city": "Atlanta",
+				"state": "GA"
+			},
+			"currentTitle": "Junior UI Developer at The Azuro Agency",
+			"introTagLine": "Hi, I'm a problem-solver with a passion for web/app design and development.",
 			"profilePic": {
 				"desktop": "/images/image-profile-desktop.webp",
 				"mobile": "/images/image-profile-mobile.webp",
@@ -119,24 +373,266 @@
 			},
 			"iconPic": {
 				"github": "/images/icon-github.svg",
-				"gitLink": "https://github.com",
+				"gitLink": "https://github.com/shadmac",
+				"linkedin": "/images/icon-linkedin.svg",
+				"linkedLink": "https://www.linkedin.com/in/shadrekamcallister",
+				"twitter": "/images/icon-twitter.svg",
+				"twittLink": "https://www.twitter.com"
+			},
+			"techstack": {
+				"html": "3 years experience",
+				"css": "3 years experience",
+				"javascript": "3 years experience",
+				"reacct": "3 years experience",
+				"sass": "",
+				"node": "3 years experience",
+				"php": "",
+				"vsCode": "3 years experience",
+				"figma": "3 years experience",
+				"adobe": "",
+				"sketch": "",
+				"jest": "3 years experience"
+			},
+			"aboutMe": {
+				"intro": "Back in 2020, after obtaining a degree in the management of information systems, I wanted to know what it took to create them and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for a start-up, an advertising agency, and a project-led design studio.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I work on passion projects that help me continue to develop my coding skills and facilitate creative processes.",
+				"para3": "When I’m not at the computer, I’m usually traveling with my girlfriend, spending time with family and friends, or playing video games!"
+			},
+			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
+			"projectDetails": [
+				{
+					"title": "Design portfolio",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-1-large.webp",
+						"small": "/images/thumbnail-project-1-small.webp"
+					}
+				},
+				{
+					"title": "E-learning landing page",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-2-large.webp",
+						"small": "/images/thumbnail-project-2-small.webp"
+					}
+				},
+				{
+					"title": "Todo web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-3-large.webp",
+						"small": "/images/thumbnail-project-3-small.webp"
+					}
+				},
+				{
+					"title": "Entertainment web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-4-large.webp",
+						"small": "/images/thumbnail-project-4-small.webp"
+					}
+				},
+				{
+					"title": "Memory Game",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-5-large.webp",
+						"small": "/images/thumbnail-project-5-small.webp"
+					}
+				},
+				{
+					"title": "Art gallery showcase",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-6-large.webp",
+						"small": "/images/thumbnail-project-6-small.webp"
+					}
+				}
+			]
+		},
+		{
+			"iD": "bearK",
+			"firstName": "Bear",
+			"lastName": "Knightmare",
+			"email": "le.kenjii@gmail.com",
+			"phone": "4045633550",
+			"location": {
+				"city": "Lilburn",
+				"state": "GA"
+			},
+			"currentTitle": "Junior Frontend Developer at The Azuro Agency",
+			"introTagLine": "Hello, you can call me Kenji or Le!",
+			"profilePic": {
+				"desktop": "/images/image-profile-desktop.webp",
+				"mobile": "/images/image-profile-mobile.webp",
+				"tablet": "/images/image-profile-tablet.webp"
+			},
+			"iconPic": {
+				"github": "/images/icon-github.svg",
+				"gitLink": "https://github.com/GeminKnight",
+				"linkedin": "/images/icon-linkedin.svg",
+				"linkedLink": "https://www.linkedin.com/in/kenji-le/",
+				"twitter": "/images/icon-twitter.svg",
+				"twittLink": "https://www.twitter.com"
+			},
+			"techstack": {
+				"html": "1 year experience",
+				"css": "1 year experience",
+				"javascript": "1 year experience",
+				"reacct": "1 year experience",
+				"sass": "",
+				"node": "",
+				"php": "",
+				"vsCode": "1 year experience",
+				"figma": "1 year experience",
+				"adobe": "",
+				"sketch": "",
+				"jest": "1 year experience"
+			},
+			"aboutMe": {
+				"intro": "Back in 2022, I decided to try my hand at creating a custom dating website app and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for a project-led design studio, an advertising agency, and a start-up.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I continue to work on my skillset,  diving deeper into back end development and improving on my coding skills.",
+				"para3": "When I’m not at the computer, I’m usually playing video games, watching anime, or sleeping!"
+			},
+			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
+			"projectDetails": [
+				{
+					"title": "Design portfolio",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-1-large.webp",
+						"small": "/images/thumbnail-project-1-small.webp"
+					}
+				},
+				{
+					"title": "E-learning landing page",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-2-large.webp",
+						"small": "/images/thumbnail-project-2-small.webp"
+					}
+				},
+				{
+					"title": "Todo web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-3-large.webp",
+						"small": "/images/thumbnail-project-3-small.webp"
+					}
+				},
+				{
+					"title": "Entertainment web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-4-large.webp",
+						"small": "/images/thumbnail-project-4-small.webp"
+					}
+				},
+				{
+					"title": "Memory Game",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-5-large.webp",
+						"small": "/images/thumbnail-project-5-small.webp"
+					}
+				},
+				{
+					"title": "Art gallery showcase",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-6-large.webp",
+						"small": "/images/thumbnail-project-6-small.webp"
+					}
+				}
+			]
+		},
+		{
+			"iD": "vanL",
+			"firstName": "Van",
+			"lastName": "Le",
+			"email": "scrippyle@gmail.com",
+			"phone": "4043769628",
+			"location": {
+				"city": "Lilburn",
+				"state": "GA"
+			},
+			"currentTitle": "Junior Frontend Developer at The Azuro Agency",
+			"introTagLine": "Hi, I'm Van and I cannot wait to help you build your dream website!",
+			"profilePic": {
+				"desktop": "/images/image-profile-desktop.webp",
+				"mobile": "/images/image-profile-mobile.webp",
+				"tablet": "/images/image-profile-tablet.webp"
+			},
+			"iconPic": {
+				"github": "/images/icon-github.svg",
+				"gitLink": "https://github.com/ScrippyLe",
 				"linkedin": "/images/icon-linkedin.svg",
 				"linkedLink": "https://www.linkedin.com",
 				"twitter": "/images/icon-twitter.svg",
 				"twittLink": "https://www.twitter.com"
 			},
 			"techstack": {
-				"html": "4 years experience",
-				"css": "4 years experience",
-				"javascript": "4 years experience",
-				"access": "4 years experience",
-				"react": "3 years experience",
-				"sass": "3 years experience"
+				"html": "9 months experience",
+				"css": "9 months experience",
+				"javascript": "9 months experience",
+				"reacct": "9 months experience",
+				"sass": "",
+				"node": "",
+				"php": "",
+				"vsCode": "9 months experience",
+				"figma": "9 months experience",
+				"adobe": "",
+				"sketch": "",
+				"jest": "9 months experience"
 			},
 			"aboutMe": {
-				"intro": "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a major corporation.",
-				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.",
-				"para3": "When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two kids, or running around Atlanta looking for the best eats!"
+				"intro": "Back in 2022, I decided to try my hand at creating custom website designs and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for an advertising agency, a project-led design studio, and a start-up.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I continue to work on my skillset,  diving deeper into CSS animations and UI design options.",
+				"para3": "When I’m not at the computer, I’m usually napping, watching movies, playing games or cooking because I love to eat!"
 			},
 			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
 			"projectDetails": [
