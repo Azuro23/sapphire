@@ -15,7 +15,7 @@ import {
     } from "@chakra-ui/react";
 import StackEx from './aboutText'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ClientInfoCard } from "./ClientInfo";
 
