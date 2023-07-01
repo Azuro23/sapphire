@@ -1,4 +1,4 @@
-import { Box, Flex, Image } from '@chakra-ui/react';
+import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -11,10 +11,9 @@ const DevProjects = ({ developers }) => {
 				className="projectsContainer"
 				key={`${dev.iD}`}
 				color={'white'}
-				width={'auto'}
 			>
 				{dev.projectDetails.map((projectDetail, ind) => (
-					<Box
+					<Flex
 						key={ind}
 						className="project"
 					>
@@ -25,27 +24,27 @@ const DevProjects = ({ developers }) => {
 							width={'auto'}
 							height={'25rem'}
 						/>
-						<Box className="projectDesc">
-							<Box className="projectTitle"> {`${projectDetail.title}`} </Box>
+						<Flex className="projectDesc">
+							<Text className="projectTitle"> {`${projectDetail.title}`} </Text>
 							<Box className="projectTechs">
-								<Box className="tech">
+								<Text className="tech">
 									{projectDetail.techs.a == null || undefined
 										? null
 										: `${projectDetail.techs.a}`}
-								</Box>
-								<Box className="tech">
+								</Text>
+								<Text className="tech">
 									{projectDetail.techs.b == null || undefined
 										? null
 										: `${projectDetail.techs.b}`}
-								</Box>
-								<Box className="tech">
+								</Text>
+								<Text className="tech">
 									{projectDetail.techs.c == null || undefined
 										? null
 										: `${projectDetail.techs.c}`}
-								</Box>
+								</Text>
 							</Box>
-						</Box>
-					</Box>
+						</Flex>
+					</Flex>
 				))}
 			</Flex>
 		) : null

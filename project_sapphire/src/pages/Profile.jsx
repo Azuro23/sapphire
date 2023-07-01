@@ -62,19 +62,46 @@ export default function Profile() {
 		index == id ? (
 			<Box key={index}>
 				<Heading
+					width={'29.0625rem'}
+					height={'3rem'}
 					color={'white'}
 					fontFamily={'inter'}
+					fontWeight={'700'}
+					fontSize={'3rem'}
+					lineHeight={'1rem'}
+					textTransform={'capitalize'}
 				>
-					{dev.firstName} {dev.lastName}
+					{`${dev.firstName}`} {`${dev.lastName}`}
 				</Heading>
-				<Text color={'white'}>{dev.currentTitle}</Text>
-				<Text color={'white'}>{dev.introTagLine}</Text>
+				<Text
+					width={'29.0625rem'}
+					height={'1.75rem'}
+					color={'white'}
+					fontFamily={'inter'}
+					fontWeight={'500'}
+					fontSize={'1.25rem'}
+					lineHeight={'1.75rem'}
+					letterSpacing={'-0.025rem'}
+					textTransform={'capitalize'}
+				>{`${dev.currentTitle}`}</Text>
+				<Text
+					maxWidth={'21.875rem'}
+					height={'3rem'}
+					color={'white'}
+					fontFamily={'inter'}
+					fontWeight={'300'}
+					fontSize={'1rem'}
+					opacity={'0.5'}
+					lineHeight={'1.5rem'}
+					marginTop={'1rem'}
+				>{`${dev.introTagLine}`}</Text>
 				<HStack
-					justify={'space-between'}
+					width={'28.8125rem'}
+					justify={'center'}
 					cursor={'pointer'}
 				>
 					<Link
-						href={dev.iconPic.gitLink}
+						href={`${dev.iconPic.gitLink}`}
 						isExternal
 					>
 						<Image
@@ -83,7 +110,7 @@ export default function Profile() {
 						/>
 					</Link>
 					<Link
-						href={dev.iconPic.linkedLink}
+						href={`${dev.iconPic.linkedLink}`}
 						isExternal
 					>
 						<Image
@@ -92,7 +119,7 @@ export default function Profile() {
 						/>
 					</Link>
 					<Link
-						href={dev.iconPic.twittLink}
+						href={`${dev.iconPic.twittLink}`}
 						isExternal
 					>
 						<Image
@@ -112,26 +139,66 @@ export default function Profile() {
 			placeContent={'center'}
 			placeItems={'center'}
 			backgroundColor={'#062143'}
-			flexDirection={'column'}
 		>
-			<header>
-				{devs}
-				<nav>
-					<ProfileNav />
-				</nav>
+			<header
+				width={'50%'}
+				height={'44.6875rem'}
+			>
+				<Flex
+					direction={'column'}
+					width={'29.0625rem'}
+					height={'44.6875rem'}
+					position={'sticky'} //need to adjust to make container sticky
+				>
+					<Flex
+						width={'29.0625rem'}
+						height={'auto'}
+						justify={'space-between'}
+					>
+						{devs}
+					</Flex>
+					<nav>
+						<ProfileNav />
+					</nav>
+				</Flex>
 			</header>
-			<main>
-				<section id="devAbout">
-					<AboutDev developers={developers} />
-				</section>
-				<section id="devExperience">
-					<DevExperience developers={developers} />
-				</section>
-				<section id="devProjects">
-					<DevProjects developers={developers} />
-				</section>
+			<main
+				width={'50%'}
+				height={'100vh'}
+			>
+				<Flex
+					flexDirection={'column'}
+					wrap={'wrap'}
+					paddingTop={'25rem'}
+					marginLeft={'2.5rem'}
+				>
+					<Box
+						id="devAbout"
+						width={'29.0625rem'}
+						height={'23.125rem'}
+					>
+						<AboutDev developers={developers} />
+					</Box>
+					<Box
+						id="devExperience"
+						width={'29.0625rem'}
+						height={'23.125rem'}
+					>
+						<DevExperience developers={developers} />
+					</Box>
+					<Flex
+						id="devProjects"
+						width={'29.0625rem'}
+						height={'auto'}
+						direction={'column'}
+					>
+						<DevProjects developers={developers} />
+					</Flex>
+				</Flex>
 			</main>
-			<footer>Contact Us Section</footer>
+			{/* <footer>
+				<Flex >Contact Us Section</Flex>
+			</footer> */}
 		</Flex>
 	);
 }

@@ -11,17 +11,20 @@ const AboutDev = ({ developers }) => {
 				key={`${dev.iD}`}
 				color={'white'}
 				width={'auto'}
+				flexDirection={'column'}
 			>
 				<Text>
 					{dev.aboutMe.intro == null || undefined
 						? null
 						: `${dev.aboutMe.intro}`}
 				</Text>
+				<br />
 				<Text>
 					{dev.aboutMe.para2 == null || undefined
 						? null
 						: `${dev.aboutMe.para2}`}
 				</Text>
+				<br />
 				<Text>
 					{dev.aboutMe.para3 == null || undefined
 						? null
