@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, FormControl, FormLabel, Input, Stack,
+import { Box, Button, Text, Divider, Flex, FormControl, FormLabel, Input, Stack,
     FormHelperText, InputGroup, InputLeftAddon, Textarea, } from '@chakra-ui/react'
 
 
@@ -84,14 +84,14 @@ export const ClientInfoCard = (props) => (
     </FormControl>
     
       <FormControl id="website">
-        <FormLabel>Your Website</FormLabel>
+        <FormLabel>Your Website: <Text as={"sub"}>(if applicable)</Text></FormLabel>
         <InputGroup>
           <InputLeftAddon>https://</InputLeftAddon>
           <Input defaultValue="" />
         </InputGroup>
       </FormControl>
       <FormControl id="bio">
-        <FormLabel>Business Needs</FormLabel>
+        <FormLabel>Business Needs:</FormLabel>
         <Textarea rows={3} resize="none" />
         <FormHelperText color="fg.subtle">Brief description of project</FormHelperText>
       </FormControl>
