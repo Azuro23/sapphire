@@ -4,24 +4,8 @@ import { Box, Button, Text, Divider, Flex, FormControl, FormLabel, Input, Stack,
 
 export const ClientInfoCard = (props) => (
     <Box as="form" bg="bg.surface" boxShadow="sm" borderRadius="lg" {...props}>
-      <Stack
-        spacing="5"
-        px={{
-          base: '4',
-          md: '6',
-        }}
-        py={{
-          base: '5',
-          md: '6',
-        }}
-      >
-        <Stack
-          spacing="6"
-          direction={{
-            base: 'column',
-            md: 'row',
-          }}
-        >
+      <Stack  spacing="5"  px={{ base: '4',   md: '6', }}  py={{ base: '5', md: '6', }} >
+        <Stack   spacing="6" direction={{   base: 'column',  md: 'row',  }} >
 
           <FormControl id="firstName">
             <FormLabel>First Name</FormLabel>
@@ -58,31 +42,17 @@ export const ClientInfoCard = (props) => (
         </Stack>
       </Stack>
       <Divider />
-      <Flex
-        direction="row-reverse"
-        py="4"
-        px={{
-          base: '4',
-          md: '6',
-        }}
-      >
+      <Flex   direction="row-reverse"  py="4"  px={{  base: '4',  md: '6',  }} >
         <Box bg="bg.surface" boxShadow="sm" borderRadius="lg" flex="1" {...props}>
-    <Stack
-      spacing="5"
-      px={{
-        base: '4',
-        md: '6',
-      }}
-      py={{
-        base: '5',
-        md: '6',
-      }}
-    >            
+    <Stack  spacing="5"  px={{  base: '4',  md: '6',  }}   py={{  base: '5', md: '6', }} >            
     <FormControl id="businessName">
     <FormLabel>Business Name</FormLabel>
     <Input defaultValue="" />            
-    </FormControl>
-    
+    </FormControl>    
+    <FormControl id="telephoneNumber">
+    <FormLabel>Telephone Number</FormLabel>
+    <Input defaultValue="" />            
+    </FormControl>    
       <FormControl id="website">
         <FormLabel>Your Website: <Text as={"sub"}>(if applicable)</Text></FormLabel>
         <InputGroup>
