@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route index element={<About />} />
+            <Route index element={<a />} />
             <Route path=':user'element={<Profile/>}/>
         </Routes>
         
