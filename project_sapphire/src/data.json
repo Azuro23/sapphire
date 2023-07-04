@@ -10,12 +10,12 @@
 				"city": "Bronx",
 				"state": "NY"
 			},
-			"currentTitle": "Senior UI Developer at The Azuro Agency",
+			"currentTitle": "Senior UI/UX Developer at The Azuro Agency",
 			"introTagLine": "I am a full stack designer and developer looking forward to working with you!",
 			"profilePic": {
-				"desktop": "/images/image-profile-desktop.webp",
-				"mobile": "/images/image-profile-mobile.webp",
-				"tablet": "/images/image-profile-tablet.webp"
+				"desktop": "/images/MichaelIgbanugo.jpeg",
+				"mobile": "/images/MichaelIgbanugo.jpeg",
+				"tablet": "/images/MichaelIgbanugo.jpeg"
 			},
 			"iconPic": {
 				"github": "/images/icon-github.svg",
@@ -119,124 +119,6 @@
 			]
 		},
 		{
-			"iD": "mikellR",
-			"firstName": "Mikell",
-			"lastName": "Rozier",
-			"email": "mikell.rozier@live.com",
-			"phone": "4045126633",
-			"location": {
-				"city": "Atlanta",
-				"state": "GA"
-			},
-			"currentTitle": "Frontend Developer at The Azuro Agency",
-			"introTagLine": "Hi, I'm Mikell!",
-			"profilePic": {
-				"desktop": "/images/image-profile-desktop.webp",
-				"mobile": "/images/image-profile-mobile.webp",
-				"tablet": "/images/image-profile-tablet.webp"
-			},
-			"iconPic": {
-				"github": "/images/icon-github.svg",
-				"gitLink": "https://github.com/MikellRozier",
-				"linkedin": "/images/icon-linkedin.svg",
-				"linkedLink": "https://www.linkedin.com/in/mikellrozier",
-				"twitter": "/images/icon-twitter.svg",
-				"twittLink": "https://www.twitter.com"
-			},
-			"techstack": {
-				"html": "2 years experience",
-				"css": "2 years experience",
-				"javascript": "2 years experience",
-				"reacct": "2 years experience",
-				"sass": "",
-				"node": " 2 years experience",
-				"php": "",
-				"vsCode": "2 years experience",
-				"figma": "2 years experience",
-				"adobe": "",
-				"sketch": "",
-				"jest": "2 years experience"
-			},
-			"aboutMe": {
-				"intro": "Back in 2021, I decided to make a career change; try my hand at creating custom website designs and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for an advertising agency, a project-led design studio, and a start-up.",
-				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I continue perfecting my craft by diving deeper into Javacript and component libraries.",
-				"para3": "When I’m not at the computer, I’m usually golfing, gaming, or engaing in a motivational speaking capacity!"
-			},
-			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
-			"projectDetails": [
-				{
-					"title": "Design portfolio",
-					"techs": {
-						"a": "html",
-						"b": "css"
-					},
-					"img": {
-						"large": "/images/thumbnail-project-1-large.webp",
-						"small": "/images/thumbnail-project-1-small.webp"
-					}
-				},
-				{
-					"title": "E-learning landing page",
-					"techs": {
-						"a": "html",
-						"b": "css"
-					},
-					"img": {
-						"large": "/images/thumbnail-project-2-large.webp",
-						"small": "/images/thumbnail-project-2-small.webp"
-					}
-				},
-				{
-					"title": "Todo web app",
-					"techs": {
-						"a": "html",
-						"b": "css",
-						"c": "javascript"
-					},
-					"img": {
-						"large": "/images/thumbnail-project-3-large.webp",
-						"small": "/images/thumbnail-project-3-small.webp"
-					}
-				},
-				{
-					"title": "Entertainment web app",
-					"techs": {
-						"a": "html",
-						"b": "css",
-						"c": "javascript"
-					},
-					"img": {
-						"large": "/images/thumbnail-project-4-large.webp",
-						"small": "/images/thumbnail-project-4-small.webp"
-					}
-				},
-				{
-					"title": "Memory Game",
-					"techs": {
-						"a": "html",
-						"b": "css",
-						"c": "javascript"
-					},
-					"img": {
-						"large": "/images/thumbnail-project-5-large.webp",
-						"small": "/images/thumbnail-project-5-small.webp"
-					}
-				},
-				{
-					"title": "Art gallery showcase",
-					"techs": {
-						"a": "html",
-						"b": "css",
-						"c": "javascript"
-					},
-					"img": {
-						"large": "/images/thumbnail-project-6-large.webp",
-						"small": "/images/thumbnail-project-6-small.webp"
-					}
-				}
-			]
-		},
-		{
 			"iD": "ericaS",
 			"firstName": "Erica",
 			"lastName": "Stewart",
@@ -246,12 +128,12 @@
 				"city": "Norcross",
 				"state": "GA"
 			},
-			"currentTitle": "Junior Frontend Developer at The Azuro Agency",
+			"currentTitle": "UI/UX Developer at The Azuro Agency",
 			"introTagLine": "Hi, I'm a front-end developer passionate about creating engaging and user-friendly web experiences through HTML, CSS, and JavaScript.",
 			"profilePic": {
-				"desktop": "/images/image-profile-desktop.webp",
-				"mobile": "/images/image-profile-mobile.webp",
-				"tablet": "/images/image-profile-tablet.webp"
+				"desktop": "/images/EricaStewart.jpg",
+				"mobile": "/images/EricaStewart.jpg",
+				"tablet": "/images/EricaStewart.jpg"
 			},
 			"iconPic": {
 				"github": "/images/icon-github.svg",
@@ -364,12 +246,12 @@
 				"city": "Atlanta",
 				"state": "GA"
 			},
-			"currentTitle": "Junior UI Developer at The Azuro Agency",
+			"currentTitle": "UI/UX Developer at The Azuro Agency",
 			"introTagLine": "Hi, I'm a problem-solver with a passion for web/app design and development.",
 			"profilePic": {
-				"desktop": "/images/image-profile-desktop.webp",
-				"mobile": "/images/image-profile-mobile.webp",
-				"tablet": "/images/image-profile-tablet.webp"
+				"desktop": "/images/ShadrekaMcAllister.jpg",
+				"mobile": "/images/ShadrekaMcAllister.jpg",
+				"tablet": "/images/ShadrekaMcAllister.jpg"
 			},
 			"iconPic": {
 				"github": "/images/icon-github.svg",
@@ -473,6 +355,124 @@
 			]
 		},
 		{
+			"iD": "mikellR",
+			"firstName": "Mikell",
+			"lastName": "Rozier",
+			"email": "mikell.rozier@live.com",
+			"phone": "4045126633",
+			"location": {
+				"city": "Atlanta",
+				"state": "GA"
+			},
+			"currentTitle": "UI/UX Developer at The Azuro Agency",
+			"introTagLine": "Hi, I specialize in front end development and I have creative ideas for your next project!",
+			"profilePic": {
+				"desktop": "/images/MikellRozier.jpg",
+				"mobile": "/images/MikellRozier.jpg",
+				"tablet": "/images/MikellRozier.jpg"
+			},
+			"iconPic": {
+				"github": "/images/icon-github.svg",
+				"gitLink": "https://github.com/MikellRozier",
+				"linkedin": "/images/icon-linkedin.svg",
+				"linkedLink": "https://www.linkedin.com/in/mikellrozier",
+				"twitter": "/images/icon-twitter.svg",
+				"twittLink": "https://www.twitter.com"
+			},
+			"techstack": {
+				"html": "2 years experience",
+				"css": "2 years experience",
+				"javascript": "2 years experience",
+				"reacct": "2 years experience",
+				"sass": "",
+				"node": " 2 years experience",
+				"php": "",
+				"vsCode": "2 years experience",
+				"figma": "2 years experience",
+				"adobe": "",
+				"sketch": "",
+				"jest": "2 years experience"
+			},
+			"aboutMe": {
+				"intro": "Back in 2021, I decided to make a career change; try my hand at creating custom website designs and tumbled head first into the rabbit hole of coding and web development. Fast-forward, I’ve had the privilege of building websites/apps for an advertising agency, a project-led design studio, and a start-up.",
+				"para2": "My main focus these days is building products and leading projects for our clients at The Azuro Agency. In my free time I continue perfecting my craft by diving deeper into Javacript and component libraries.",
+				"para3": "When I’m not at the computer, I’m usually golfing, gaming, or engaing in a motivational speaking capacity!"
+			},
+			"contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
+			"projectDetails": [
+				{
+					"title": "Design portfolio",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-1-large.webp",
+						"small": "/images/thumbnail-project-1-small.webp"
+					}
+				},
+				{
+					"title": "E-learning landing page",
+					"techs": {
+						"a": "html",
+						"b": "css"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-2-large.webp",
+						"small": "/images/thumbnail-project-2-small.webp"
+					}
+				},
+				{
+					"title": "Todo web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-3-large.webp",
+						"small": "/images/thumbnail-project-3-small.webp"
+					}
+				},
+				{
+					"title": "Entertainment web app",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-4-large.webp",
+						"small": "/images/thumbnail-project-4-small.webp"
+					}
+				},
+				{
+					"title": "Memory Game",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-5-large.webp",
+						"small": "/images/thumbnail-project-5-small.webp"
+					}
+				},
+				{
+					"title": "Art gallery showcase",
+					"techs": {
+						"a": "html",
+						"b": "css",
+						"c": "javascript"
+					},
+					"img": {
+						"large": "/images/thumbnail-project-6-large.webp",
+						"small": "/images/thumbnail-project-6-small.webp"
+					}
+				}
+			]
+		},
+		{
 			"iD": "bearK",
 			"firstName": "Bear",
 			"lastName": "Knightmare",
@@ -482,12 +482,12 @@
 				"city": "Lilburn",
 				"state": "GA"
 			},
-			"currentTitle": "Junior Frontend Developer at The Azuro Agency",
+			"currentTitle": "UI/UX Developer at The Azuro Agency",
 			"introTagLine": "Hello, you can call me Kenji or Le!",
 			"profilePic": {
-				"desktop": "/images/image-profile-desktop.webp",
-				"mobile": "/images/image-profile-mobile.webp",
-				"tablet": "/images/image-profile-tablet.webp"
+				"desktop": "/images/BearKnightmare.jpg",
+				"mobile": "/images/BearKnightmare.jpg",
+				"tablet": "/images/BearKnightmare.jpg"
 			},
 			"iconPic": {
 				"github": "/images/icon-github.svg",
@@ -600,7 +600,7 @@
 				"city": "Lilburn",
 				"state": "GA"
 			},
-			"currentTitle": "Junior Frontend Developer at The Azuro Agency",
+			"currentTitle": "UI/UX Developer at The Azuro Agency",
 			"introTagLine": "Hi, I'm Van and I cannot wait to help you build your dream website!",
 			"profilePic": {
 				"desktop": "/images/image-profile-desktop.webp",
